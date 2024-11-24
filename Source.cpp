@@ -1,7 +1,7 @@
-#include<cstdio>
-#include<cstdlib>
 #include<iostream>
+
 using namespace std;
+
 int main(int nNumberofArgs, char* pszArgs[])
 {
     string var;
@@ -20,12 +20,11 @@ int main(int nNumberofArgs, char* pszArgs[])
 
         if (var == "list")
         {
-        std::cout << "cm to inch = centimeter, inch to cm = inch\n";
-        std::cout << "feet to meter = feet, meter to feet = meter\n";
-        std::cout << "mile to km = mile, km to miles = kilometer\n";
-        std::cout << "oz to g = grams, g to oz = ounces\n";
-        std::cout << "lb to kg = kilogram, kg to lb = pound\n";
-           
+            cout << "cm to inch = centimeter, inch to cm = inch\n";
+            cout << "feet to meter = feet, meter to feet = meter\n";
+            cout << "mile to km = mile, km to miles = kilometer\n";
+            cout << "oz to g = grams, g to oz = ounces\n";
+            cout << "lb to kg = kilogram, kg to lb = pound\n";
         }
         //inches to centimeters
         if (var == "inch")
